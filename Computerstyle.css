@@ -1,21 +1,17 @@
 @media screen and (min-width: 1200px){ 
     
-    :root {
-        --white: #ffffff;
-        --gray-light: #f5fbfc;
-        --gray-dark: #08090a;
-        --green: #35b8be;
-        --green-dark: #1b9097;
-        --green-light: #f5fbfc;
-        --blue-dark: #546285;
-        --banned: url()
-    }
-    
     
     #banner{
+        display: block;
+        color: var(--white);
         background: var(--green) url(../images/button_wave.svg) no-repeat;
         text-align: center;
-        font-size: 0.8rem;
+        padding: 10px;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+        
+    
     }
     
     body{
@@ -58,8 +54,9 @@
     main section:nth-child(1){
         display: flex;
         text-align: left;
-        align-items: flex-start;
-        gap: 80px;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 50px;
 
         
     }
@@ -71,20 +68,70 @@
 
     main section:nth-child(1) h1,
     main section:nth-child(1) p,
-    main section:nth-child(1) a{
-        
+    main section:nth-child(2) .btnblue{
+
         text-align: left;
+        align-items: center;
         
         
     }
 
     .btnblue{
-        margin: 50px 0 0 0;
+        margin: 50px 0 0 0 !important;
         width: 20%;
+        display: block;
         
     }
 
     main section:nth-child(2){
-    display: flex;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        }
+
+    main section:nth-child(2) h2,
+    main section:nth-child(2) p,
+    main section:nth-child(2) .btnblue{
+
+        text-align: left;
+        align-items: center;
+        
+        }
+
+    main section:nth-child(1) div,
+    main section:nth-child(2) div{
+        margin-left: 80px;
+            
+        }
+
+    main section:nth-child(2) img{
+        margin-right: 80px;
     }
+
+
+    #Title2{
+        text-align: center;
+        size: 3rem;
+    }
+
+
+    .section3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+    }
+
+    .section3 div img{
+        width: 50%;
+    }
+
+    footer{
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
 }
