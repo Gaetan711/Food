@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Libre+Baskerville&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&family=PT+Sans&display=swap');
+
+:root {
+    --white: #ffffff;
+    --gray-light: #f5fbfc;
+    --gray-dark: #08090a;
+    --green: #35b8be;
+    --green-dark: #1b9097;
+    --green-light: #f5fbfc;
+    --blue-dark: #546285;
+    --banned: url()
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    padding-top: 25px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+#banner{
+    background: var(--green) url(../images/button_wave.svg) no-repeat;
+    text-align: center;
+    font-size: 0.8rem;
+    display: none;
+    
+}
+
+body header a img{
+    width: 50px;
+    margin-top: 10px;
+}
+
+body header ul{
+    display: none;
+}
+
+.menumobile{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+body header div{
+    align-items: center;
+}
+
+body main section:nth-child(1){
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+span{
+    display: inline-block;
+    color: var(--green);
+}
+
+main section:nth-child(1) p{
+    font-size: 1.2rem;
+    color: var(--blue-dark);
+    font-weight: lighter;
+}
+
+
+.btnblue{
+    text-decoration: none;
+    border: var(--green-dark);
+    color: var(--green-light);
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: var(--green) url(../images/button_wave.svg) no-repeat;
+    text-align: center;
+    font-weight: 200;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+}
+
+
+main section:nth-child(1) img{
+    width: 60%;
+    margin: 80px 0;
+    align-items: center;
+}
+
+
+h2{
+    color: var(--green);
+}
+
+main section{
+    text-align: center;
+}
+
+main section:nth-child(2){
+    background-color: var(--green-light);
+    border-radius: 2px;
+
+}
+
+main section:nth-child(2) h2{
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+main section:nth-child(2) p{
+    font-size: 1.2rem;
+    color: var(--blue-dark);
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+main section:nth-child(2) img{
+    width: 60%;
+    margin: 80px auto;
+}
+
+
+main section:nth-child(3) img{
+    width: 60%;
+    margin: auto;
+    
+}
+
+main section:nth-child(3) p{
+    font-size: 1.2rem;
+    color: var(--blue-dark);
+    font-weight: lighter;
+    padding-bottom: 50px;
+
+}
+
+footer{
+    background-color: var(--green-light);
+    margin: auto;  
+}
+
+footer p{
+    color: var(--green);
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+
+
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-left: 20px
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: var(--gray-dark)
+}
+
